@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(189, 255, 219);
+   
+}
+nav{
+    display: flex;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    height: 30px;
+    padding: 0 23px
+}
+
+.card{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.card img{
+    width: 30px;
+    padding: 0 20px;
+    position: absolute;
+    right: 0;
+}
+nav ul{
+    width: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 23px;
+    justify-content: center
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    font-weight: bold;
+    color: black;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 28px;
+    width: 30vw;
+    border-radius: 5px;
+    margin: 0 20px 10px 250px;
+    padding: 0 12px;
+}
+.con{
+   min-height: calc(100vh - 12vh - 10vh);
+   background-color: white;
+    
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.slider img{
+    height: 50vh;
+    width: 80vw;
+}
+.card2{
+    max-width: 90vw;
+    margin: 30px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.card-items{
+    /* width: 10vw; */
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+.text{
+    text-align: center;
+    color: blue;
+}
+.card2 h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer {
+  height: 12vh;
+  background-color: rgb(189, 255, 219);
+  color:black;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
